@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/widget/login_page.dart' deferred as login_page;
 import 'package:flutter/cupertino.dart';
+import 'package:my_app/screens/home.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MaterialApp(
+    title: 'Navigation Basics',
+    home: HomePage(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
